@@ -1,4 +1,5 @@
 # wiair
+![tests](https://github.com/5h4d0wn1k/wiair/actions/workflows/ci.yml/badge.svg) ![MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Wireless offensive framework — byte-exact 802.11/BLE frame craft+parse, offline-only safety-gated
 
@@ -121,3 +122,6 @@ See [METRICS.md](METRICS.md) for measured values.
    Scapy is listed as an optional dependency for advanced analysis, never for emission.
 4. **Offline-only by default**: Every subcommand operates on in-memory bytes or
    fixture pcap files. No network or RF interaction is possible in default mode.
+
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md).
